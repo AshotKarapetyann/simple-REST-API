@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ashot Karapetyan",
+  "license": "ISC",
+  "description": "Rest API example",
+  "keywords": [
+    "js",
+    "rest",
+    "api"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
